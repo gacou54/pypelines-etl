@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+!poetry.lock
+
+!pypelines/
+!pypelines/**
+
+!tests/
+!tests/**
+
+*.pyc
+*.pyo
