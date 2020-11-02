@@ -1,10 +1,10 @@
-# Pypelines
+# Pypelines-ETL
 
 Simple library to make pipelines or ETL
 
 ## Installation
 ```bash
-$ pip install pypelines
+$ pip install pypelines-etl
 ```
 
 ## Usage

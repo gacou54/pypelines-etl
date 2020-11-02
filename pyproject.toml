@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pypelines-etl"
+version = "0.1.0"
+description = "Simple library to make pipelines or ETL"
+authors = ["Gabriel Couture <gacou54@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gacou54/pypelines"
+repository = "https://github.com/gacou54/pypelines"
+keywords = ["pipeline", 'etl']
+classifiers = [
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "pypelines" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+mypy = "^0.790"
+numpy = "^1.19.3"
+pandas = "^1.1.3"
+toolz = "^0.11.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
