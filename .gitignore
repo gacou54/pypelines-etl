@@ -2,6 +2,7 @@
 
 !.gitignore
 !poetry.lock
+!README.md
 
 !pypelines/
 !pypelines/**
